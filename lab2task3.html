@@ -1,0 +1,28 @@
+<html>
+
+<header>
+    <style>
+        button{
+            background-color: rgb(15, 163, 52);
+        }
+    </style>
+</header>
+    <body>
+    <div>
+    <button id="circlebutton" onclick=circle() >circle</button>
+    <button id="rectanglebutton" onclick=rectangle()>rectangle</button>
+    <button id="linebutton" onclick="line()">line</button>
+    <button id="freedrawbutton" onclick="free()">free draw</button>
+    <button id="eraser" onclick="eraser()">eraser</button>
+    <input  id ="color" type="color" onchange="color()" > 
+    <br>
+    <br>
+    <canvas id="canvas" width="1000" height="600" style="border: 2px solid rgb(146, 28, 28)"></canvas>
+    
+    
+    </div>
+    <script src="lab2task3.js">
+
+    </script>
+    </body>
+    </html>
